@@ -134,7 +134,7 @@ article {
     float : right;
     height : auto;
     padding : 20px;
-    width : 550px;
+    width : 750px;
 }
 article h1{
     color : #666;
@@ -487,7 +487,7 @@ footer img{
     background : #EEE;
     margin : 15px auto;
     padding : 10px 10px 0 10px;
-    width : 800px;
+    width : 1000px;
 }
 #b {
     overflow : hidden;
