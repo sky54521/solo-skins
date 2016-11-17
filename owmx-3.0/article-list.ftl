@@ -32,8 +32,9 @@
             <span class="left articles-commentIcon" title="${commentLabel}"></span>
 	        ${article.articleCommentCount}
         </a>
-    </p>
-    <p>
+        
+          |
+           
         ${tags1Label} 
         <#list article.articleTags?split(",") as articleTag>
         <span>
