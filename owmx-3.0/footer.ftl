@@ -1,15 +1,7 @@
 <footer>
     <span>&copy; ${year}</span> - <a href="${servePath}">${blogTitle}</a>${footerContent}
     <span>
-	    <script>
-			var cnzz_s_tag = document.createElement('script');
-			cnzz_s_tag.type = 'text/javascript';
-			cnzz_s_tag.async = true;
-			cnzz_s_tag.charset = “utf-8”;
-			cnzz_s_tag.src = “http://w.cnzz.com/c.php?id=1272832283&async=1”;
-			var root_s = document.getElementsByTagName('script')[0];
-			root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
-		</script>
+	    <script src="https://s13.cnzz.com/z_stat.php?id=1272832283&web_id=1272832283" language="JavaScript"></script>
     </span>
     <div onclick="Util.goTop();">${goTopLabel}</div>
 </footer>
